@@ -6,3 +6,4 @@
 -e ../../identity/azure-identity
 aiohttp>=3.0; python_version >= '3.5'
 adal
+pyjwt>=2.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
