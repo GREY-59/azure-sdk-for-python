@@ -2,4 +2,4 @@
 -e ../../../tools/azure-devtools
 ../../core/azure-core
 -e ../../identity/azure-identity
-azure-storage-blob<=12.7.0
+azure-storage-blob<=12.13.0
