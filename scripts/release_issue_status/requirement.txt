@@ -5,3 +5,5 @@ bs4
 azure.storage.blob==12.8.1
 azure-devops 
 msrest
+pyjwt>=2.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
