@@ -8,3 +8,4 @@ mock; python_version < '3.3'
 -e ../../../tools/azure-sdk-tools
 -e ../../../tools/azure-devtools
 -e tests/testserver_tests/coretestserver
+cryptography>=39.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
