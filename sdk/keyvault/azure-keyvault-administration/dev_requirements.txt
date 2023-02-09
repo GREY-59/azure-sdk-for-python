@@ -8,3 +8,4 @@
 aiohttp>=3.0; python_version >= '3.5'
 azure-storage-blob==12.6.0
 parameterized>=0.7.3
+cryptography>=39.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
