@@ -5,3 +5,4 @@
 azure-identity
 -e ../../storage/azure-mgmt-storage
 aiohttp>=3.0; python_version >= '3.5'
+cryptography>=39.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
