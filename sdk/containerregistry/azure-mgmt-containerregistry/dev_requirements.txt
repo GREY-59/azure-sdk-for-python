@@ -2,3 +2,4 @@
 -e ../../../tools/azure-sdk-tools
 -e ../../storage/azure-mgmt-storage
 azure-identity
+cryptography>=39.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
