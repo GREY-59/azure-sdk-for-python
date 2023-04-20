@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:kinetic
 MAINTAINER zikalino
 
 RUN apt-get update
