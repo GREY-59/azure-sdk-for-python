@@ -1,3 +1,4 @@
 aiohttp>=3.0; python_version >= '3.5'
 opencensus-ext-azure
 psutil
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
