@@ -3,3 +3,4 @@
 ../../core/azure-core
 -e ../../identity/azure-identity
 azure-storage-blob<=12.7.0
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
