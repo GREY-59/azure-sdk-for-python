@@ -4,3 +4,4 @@
 pytest
 pytest-asyncio;python_version>="3.5"
 aiohttp>=3.0; python_version >= '3.5'
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
