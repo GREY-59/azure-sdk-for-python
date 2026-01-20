@@ -5,3 +5,5 @@ bs4
 azure.storage.blob==12.8.1
 azure-devops 
 msrest
+azure-core>=1.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
